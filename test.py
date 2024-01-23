@@ -1,3 +1,3 @@
-from requests import getopt
+import requests
 
 bilicookie = requests.get("https://bilibili.com")
