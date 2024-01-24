@@ -1,3 +1,7 @@
 import requests
 
-bilicookie = requests.get("https://bilibili.com")
+
+url = "https://bilibili.com"
+headers = {}
+bilicookie = requests.get(url)
+
