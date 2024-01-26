@@ -11,3 +11,6 @@ from typing import Optional
 class biliAuth():
     def __init__(self):
         self.username = None
+
+    def catch(self):
+        self.catch = None
