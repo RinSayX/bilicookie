@@ -14,3 +14,14 @@ class biliAuth():
 
     def catch(self):
         self.catch = None
+
+    def auth(self):
+        self.username = None
+        self.password = None
+
+
+def getMyloginfo(username, passworld):
+    for n in username:
+        if n == None:
+            return "Wrong Username"
+
