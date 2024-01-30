@@ -20,8 +20,16 @@ class biliAuth():
         self.password = None
 
 
-def getMyloginfo(username, passworld):
+def getMyloginfo(username, password):
     for n in username:
         if n == None:
             return "Wrong Username"
+        else:
+            un = username
+
+    for p in password:
+        if p == None:
+            return "Wrong Password"
+
+
 
