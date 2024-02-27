@@ -26,10 +26,3 @@ def getMyloginfo(username, password):
             return "Wrong Username"
         else:
             un = username
-
-    for p in password:
-        if p == None:
-            return "Wrong Password"
-
-
-
